@@ -11,7 +11,6 @@ const Cocktails = () => {
                 start: "top 15%",
                 end: "bottom 70%",
                 scrub: true,
-                markers: true
             }
         })
 
