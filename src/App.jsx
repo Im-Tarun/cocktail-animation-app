@@ -1,14 +1,18 @@
 import gsap from "gsap"
 import { ScrollTrigger, SplitText } from "gsap/all";
+import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
 
-gsap.registerPlugin( ScrollTrigger, SplitText);
+gsap.registerPlugin(ScrollTrigger, SplitText);
 
 
 const App = () => {
   return (
-    <div>
-      <h1 className=" text-gradient text-4xl"> hello </h1>
-    </div>
+    <>
+
+      <Navbar />
+      <Hero/>
+    </>
   )
 }
 
