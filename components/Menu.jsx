@@ -10,9 +10,9 @@ const Menu = () => {
 
 
     useGSAP(()=>{
-      gsap.fromTo("#title, .details",{ opacity:0, stagger:true },{yPercent:0, opacity:1, duration:0.5})
-      gsap.fromTo(".details",{ yPercent: 100, opacity:0},{yPercent:0, opacity:1, duration:0.5})
-      gsap.fromTo(".cocktail img",{xPercent:-100, opacity:0},{xPercent:0, opacity:1, duration:1, ease:"power1.inOut"})
+      gsap.fromTo("#title, .details",{ opacity:0, stagger:true },{yPercent:0, opacity:1, duration:0.8})
+      gsap.fromTo(".details",{ yPercent: 100, opacity:0},{yPercent:0, opacity:1, duration:0.8})
+      gsap.fromTo(".cocktail img",{xPercent:-100, opacity:0},{xPercent:0, opacity:1, duration:.9, ease:"power1.out"})
 
       gsap.timeline({
         scrollTrigger:{

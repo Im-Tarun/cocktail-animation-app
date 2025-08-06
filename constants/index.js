@@ -119,18 +119,18 @@ const openingHours = [
 const socials = [
  {
 	name: "Instagram",
-	icon: "/images/insta.png",
-	url: "#",
+	icon: "",
+	url: "https://www.instagram.com/yaduwanshi_tarun_",
  },
  {
-	name: "X (Twitter)",
-	icon: "/images/x.png",
-	url: "#",
+	name: "LinkedIn",
+	icon: "",
+	url: "linkedin.com/in/tarun-yaduwanshi",
  },
  {
-	name: "Facebook",
-	icon: "/images/fb.png",
-	url: "#",
+	name: "GitHub",
+	icon: "",
+	url: "https://github.com/Im-Tarun/cocktail-animation-app",
  },
 ];
 
